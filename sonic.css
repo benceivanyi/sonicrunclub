@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'FavoritProBook';
+    src: url('Assets/FavoritProBook.otf');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DatdotBold';
+    src: url('Assets/DatdotBold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.header {
+    column-count: 3;
+    padding-top: 12px;
+    padding-bottom: 0px;
+    background-color: #2352ff;
+    column-gap: 0px;
+}
+
+h1 {
+    padding-bottom: 0px;
+    margin-bottom: 12px;
+    -webkit-font-smoothing: antialiased;
+}
+
+a.h1link {
+text-decoration: none;
+color: white;
+transition: 0.2s;
+}
+
+a.h1link:hover {
+    color: black;
+    transition: 0.2s;
+}
+
+#header-left {
+    margin-left: 24px;
+    margin-right: 0px;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'FavoritProBook';
+    font-weight: lighter;
+    font-size:calc(12px + 0.5vw);
+    letter-spacing: -0.05vw;
+    column-span: 1;
+    text-align: left;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    transition: 0.2s;
+}
+
+#header-center {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'FavoritProBook';
+    font-weight: lighter;
+    font-size:calc(12px + 0.5vw);
+    letter-spacing: -0.05vw;
+    column-span: 1;
+    text-align: center;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    transition: 0.2s;
+}
+
+#header-right {
+    margin-left: 0px;
+    margin-right: 24px;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'FavoritProBook';
+    font-weight: lighter;
+    font-size:calc(12px + 0.5vw);
+    letter-spacing: -0.05vw;
+    column-span: 1;
+    text-align: right;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    transition: 0.2s;
+}
+
+#object {
+    height: auto;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: #D9D9D9;
+}
+
+#placeholder {
+    max-width: 100%;
+    height: auto;
+    max-width: 100vw;
+    max-height: 90vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#exploredrop {
+    padding-top: 12px;
+    margin-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 12px;
+    background-color: #D9D9D9;
+}
+
+
+h2 {
+    font-family: 'FavoritProBook';
+    font-weight: lighter;
+    font-size:calc(12px + 0.5vw);
+    letter-spacing: -0.05vw;
+    text-align: center;
+    color: black;
+    background-color: rgb(73, 249, 85);
+    border-radius: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 48px;
+    -webkit-font-smoothing: antialiased;
+    transition: 0.2s;
+}
+
+h2:hover {
+    background-color: white;
+    transition: 0.2s;
+}
+
+a.h2link{
+ text-decoration: none;
+ transition: 0.2s;
+}
+
+#bodytext {
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: white;
+    padding-top: 12px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: 'FavoritProBook';
+    font-weight: lighter;
+    font-size: calc(21px + 0.9vw);
+    line-height: calc(21px + 0.8vw);
+    letter-spacing: -0.1vw;
+    text-align: left;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    transition: 0.2s;
+}
+
+a.plink {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+a.plink:hover {
+    color: #2352ff;
+}
+
+
+#drop1link {
+    color: white;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+h3 {
+    font-family: 'DatdotBold';
+    font-weight: bold;
+    color: #2352ff;
+    font-size:calc(42px + 1.8vw);
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+a.h3link {
+    text-decoration: none;
+    color:#2352ff;
+    transition: 0.2s;
+  
+}
+
+a.h3link:hover {
+    color: black;
+    transition: 0.2s;
+}
+
+
+#icon {
+  text-align: center;
+  width: 25vw;
+}
